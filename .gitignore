@@ -1,0 +1,9 @@
+# the upstream llama.cpp checkout — cloned fresh at the pinned commit by build.sh,
+# never vendored or submoduled into this repo
+/llama.cpp
+# never commit weights
+*.gguf
+# raw bench artifacts
+bench/*.jsonl
+bench/*.err
+build.log
